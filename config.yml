@@ -1,6 +1,7 @@
 baseURL: https://edfloreshz.github.io/
 languageCode: en-us
 paginate: 5
+relativeURLs: true
 title: edfloreshz
 
 theme: "PaperMod"
