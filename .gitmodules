@@ -1,3 +1,3 @@
 [submodule "themes/PaperMod"] 
   path = themes/PaperMod 
-  repository = https://github.com/edfloreshz/blog/
+  url = https://github.com/edfloreshz/blog/
