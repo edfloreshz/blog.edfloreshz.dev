@@ -1,7 +1,7 @@
 ---
 title: "Variables And Mutability In Rust"
 layout: "article"
-url: "/articles/varmut"
+url: "blog/articles/varmut"
 author: "Eduardo Flores"
 publishdate: 2020-09-18
 summary: We are now going to go further and start talking about variables and mutability.

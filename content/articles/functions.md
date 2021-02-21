@@ -1,7 +1,7 @@
 ---
 title: "Functions In Rust"
 layout: "article"
-url: "/articles/functions"
+url: "blog/articles/functions"
 author: "Eduardo Flores"
 publishdate: 2020-10-12
 summary: In this article, we'll be discussing what control flow is and how we can use it in Rust
@@ -29,11 +29,12 @@ fn another_function() {
     println!("Another function.");
 }
 ```
-The curly brackets tell the compiler where the function body begins and ends. Note that we defined `another_function` after the main function in the source code; we could have defined it before as well. Rust doesn’t care where you define your functions, only that they’re defined somewhere. This is not the case with other languages like C/C++, where you need to define functions before the function that will call them. 
+
+The curly brackets tell the compiler where the function body begins and ends. Note that we defined `another_function` after the main function in the source code; we could have defined it before as well. Rust doesn’t care where you define your functions, only that they’re defined somewhere. This is not the case with other languages like C/C++, where you need to define functions before the function that will call them.
 
 # Function Parameters
 
-If you've worked with functions before, you already know what parameters are for, but for those who haven't, a parameter is simply data being sent to a function. As you may have already realized, functions are not in the same scope as the function that calls them, this means that they don't have access to the same data. In order for the function to work, we need to send them the required data. 
+If you've worked with functions before, you already know what parameters are for, but for those who haven't, a parameter is simply data being sent to a function. As you may have already realized, functions are not in the same scope as the function that calls them, this means that they don't have access to the same data. In order for the function to work, we need to send them the required data.
 
 As an example, imagine a function `add` that takes two parameters, two numbers to add.
 
@@ -43,7 +44,7 @@ fn add( x: u32, y: u32) -> u32 {
 }
 ```
 
-Functions are declared using the `fn` keyword. Its arguments are type annotated, just like variables, and, if the function returns a value, the return type must be specified after an arrow `->`. 
+Functions are declared using the `fn` keyword. Its arguments are type annotated, just like variables, and, if the function returns a value, the return type must be specified after an arrow `->`.
 
 If you come from another language, you might be wondering where the `return` statement and the `;` are. With Rust, the final expression in the function will be used as the return value. Alternatively, the `return` statement can be used to return a value earlier from within the function, even from inside loops or if statements.
 
@@ -54,6 +55,7 @@ Function definitions and variable declarations are statements; statements do not
 ```rust
 let x = (let y = 6);
 ```
+
 This will result in an error:
 
 ```bash
@@ -70,7 +72,7 @@ error: expected expression, found statement (`let`)
 
 In Rust, the return value of the function is synonymous with the value of the final expression in the block of the body of a function. You can return early from a function by using the return keyword and specifying a value, but most functions return the last expression implicitly.
 
-If we place a semicolon at the end of the final line containing `x + y`, changing it from an expression to a statement, we’ll get an error: 
+If we place a semicolon at the end of the final line containing `x + y`, changing it from an expression to a statement, we’ll get an error:
 
 ```bash
 error[E0308]: mismatched types
@@ -90,7 +92,7 @@ The main error message, “mismatched types,” reveals the core issue with this
 
 # What's next?
 
-There is a lot more to learn about functions, this is just a quick introduction, we will explore functions in more detail in a later article. 
+There is a lot more to learn about functions, this is just a quick introduction, we will explore functions in more detail in a later article.
 
 In the next article, we'll talk about [Control Flow](/articles/controlflow), it will allow us to express the way that execution components (statements, expressions, and declarations) are wired together to effect a computation.
 

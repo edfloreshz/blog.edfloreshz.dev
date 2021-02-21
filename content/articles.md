@@ -1,6 +1,6 @@
 ---
 title: "Articles"
 layout: "articles"
-url: "/articles/"
+url: "blog/articles/"
 summary: articles
 ---

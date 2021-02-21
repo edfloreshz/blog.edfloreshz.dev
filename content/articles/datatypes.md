@@ -1,7 +1,7 @@
 ---
 title: "Data Types In Rust"
 layout: "article"
-url: "/articles/datatypes"
+url: "blog/articles/datatypes"
 author: "Eduardo Flores"
 publishdate: 2020-09-25
 summary: In this article, we'll be discussing the various data types in Rust

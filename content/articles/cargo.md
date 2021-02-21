@@ -1,7 +1,7 @@
 ---
 title: "Let's Talk About Cargo For Rust Projects"
 layout: "article"
-url: "/articles/cargo"
+url: "blog/articles/cargo"
 author: "Eduardo Flores"
 publishdate: 2020-09-17
 summary: We are now going to discuss how can we use Cargo, one of the tools we talked about that comes with Rust

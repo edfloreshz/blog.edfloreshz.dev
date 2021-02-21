@@ -1,7 +1,7 @@
 ---
 title: "Best Development Tools And Resources For Rust"
 layout: "tools"
-url: "/articles/tools"
+url: "blog/articles/tools"
 author: "Eduardo Flores"
 publishdate: 2020-08-24
 summary: The purpose of this article is to help Rust developers find tools and resources to make the most out of their developer experience

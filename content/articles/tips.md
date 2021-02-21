@@ -1,7 +1,7 @@
 ---
 title: "Tips to deal with side projects"
 layout: "article"
-url: "/articles/tips"
+url: "blog/articles/tips"
 author: "Eduardo Flores"
 publishdate: 2020-08-30
 summary: In this article, we'll be discussing some tips I've encountered that have helped me stick with my side projects until they're done.
