@@ -1,3 +1,3 @@
 [submodule "themes/PaperMod"] 
   path = themes/PaperMod 
-  url = git://github.com/edfloreshz/blog.git/
+  url = https://github.com/edfloreshz/blog/
