@@ -1,7 +1,7 @@
 ---
 title: "How to get started with Rust?"
 layout: "article"
-url: "blog/articles/getstarted"
+url: "articles/getstarted"
 author: "Eduardo Flores"
 publishdate: 2020-09-16
 summary: This is the first in a series of articles to help developers understand Rust better

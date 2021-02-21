@@ -1,7 +1,7 @@
 ---
 title: "How to triple-boot Windows, macOS and Linux?"
 layout: "article"
-url: "blog/articles/tripleboot"
+url: "articles/tripleboot"
 author: "Eduardo Flores"
 publishdate: 2020-09-16
 summary: As developers, we sometimes require to test our software on different platforms, this can be hard to do especially if you don't own a Mac, fortunately, there is a way to do exactly that

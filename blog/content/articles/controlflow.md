@@ -1,7 +1,7 @@
 ---
 title: "Control Flow In Rust"
 layout: "article"
-url: "blog/articles/controlflow/"
+url: "articles/controlflow/"
 author: "Eduardo Flores"
 publishdate: 2020-10-20
 summary: In this article, we'll be discussing what control flow is and how we can use it in Rust

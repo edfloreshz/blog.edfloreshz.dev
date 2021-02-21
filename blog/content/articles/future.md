@@ -1,7 +1,7 @@
 ---
 title: "Should we trust Rust with the future of systems programming?"
 layout: "future"
-url: "blog/articles/future"
+url: "articles/future"
 author: "Eduardo Flores"
 publishdate: 2020-08-30
 summary: The purpose of this article is to explore Rust in the systems programming.

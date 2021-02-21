@@ -1,7 +1,7 @@
 ---
 title: "Functions In Rust"
 layout: "article"
-url: "blog/articles/functions"
+url: "articles/functions"
 author: "Eduardo Flores"
 publishdate: 2020-10-12
 summary: In this article, we'll be discussing what control flow is and how we can use it in Rust
