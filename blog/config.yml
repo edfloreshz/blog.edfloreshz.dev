@@ -10,7 +10,7 @@ params:
     enabled: true # needs to be explicitly set
     title: Hello!
     subtitle: "My name is Eddy, I write about Rust 🦀"
-    imageUrl: resources/_gen/images/profile.jpg
+    imageUrl: static/images/profile.jpg
     imageWidth: 120
     imageHeight: 120
     imageTitle: profile
