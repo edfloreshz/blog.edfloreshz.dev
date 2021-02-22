@@ -1,6 +1,6 @@
 ---
 title: "Functions In Rust"
-layout: "article"
+layout: "post"
 url: "articles/functions"
 author: "Eduardo Flores"
 publishdate: 2020-10-12

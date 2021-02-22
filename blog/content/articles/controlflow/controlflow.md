@@ -1,6 +1,6 @@
 ---
 title: "Control Flow In Rust"
-layout: "article"
+layout: "post"
 url: "articles/controlflow/"
 author: "Eduardo Flores"
 publishdate: 2020-10-20

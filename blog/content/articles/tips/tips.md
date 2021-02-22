@@ -1,6 +1,6 @@
 ---
 title: "Tips to deal with side projects"
-layout: "article"
+layout: "post"
 url: "articles/tips"
 author: "Eduardo Flores"
 publishdate: 2020-08-30

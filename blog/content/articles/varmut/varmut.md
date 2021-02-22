@@ -1,6 +1,6 @@
 ---
 title: "Variables And Mutability In Rust"
-layout: "article"
+layout: "post"
 url: "articles/varmut"
 author: "Eduardo Flores"
 publishdate: 2020-09-18

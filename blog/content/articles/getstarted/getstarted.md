@@ -1,6 +1,6 @@
 ---
 title: "How to get started with Rust?"
-layout: "article"
+layout: "post"
 url: "articles/getstarted"
 author: "Eduardo Flores"
 publishdate: 2020-09-16

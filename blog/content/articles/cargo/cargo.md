@@ -1,6 +1,6 @@
 ---
 title: "Let's Talk About Cargo For Rust Projects"
-layout: "article"
+layout: "post"
 url: "articles/cargo"
 author: "Eduardo Flores"
 publishdate: 2020-09-17

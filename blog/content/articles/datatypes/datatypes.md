@@ -1,6 +1,6 @@
 ---
 title: "Data Types In Rust"
-layout: "article"
+layout: "post"
 url: "articles/datatypes"
 author: "Eduardo Flores"
 publishdate: 2020-09-25

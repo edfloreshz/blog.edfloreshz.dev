@@ -1,6 +1,6 @@
 ---
 title: "Understanding Ownership In Rust"
-layout: "article"
+layout: "post"
 url: "articles/ownership"
 author: "Eduardo Flores"
 publishdate: 2021-02-21
