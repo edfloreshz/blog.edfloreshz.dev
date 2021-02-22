@@ -19,6 +19,10 @@ menu:
       name: search
       url: /search/
       weight: 30
+    - identifier: tags
+      name: tags
+      url: /tags/
+      weight: 30
 
 params:
   profileMode:
