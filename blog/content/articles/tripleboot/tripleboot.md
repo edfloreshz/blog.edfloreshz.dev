@@ -8,7 +8,7 @@ publishdate: 2020-09-16
 summary: As developers, we sometimes require to test our software on different platforms, this can be hard to do especially if you don't own a Mac, fortunately, there is a way to do exactly that
 ---
 
-![Header](R6kACZq4O.png)
+![Header](header.png)
 
 As developers, we sometimes require to test our software on different platforms, this can be hard to do especially if you don't own a Mac, fortunately, there is a way to do exactly that.
 

@@ -8,7 +8,7 @@ publishdate: 2020-10-20
 summary: In this article, we'll be discussing what control flow is and how we can use it in Rust
 ---
 
-![Header](Bz78JT-0V.png)
+![Header](header.png)
 
 In this article, we'll be discussing what control flow is and how we can use it in Rust.
 

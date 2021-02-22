@@ -8,7 +8,7 @@ publishdate: 2020-09-18
 summary: We are now going to go further and start talking about variables and mutability.
 ---
 
-![Header](46GVcAL8q.png)
+![Header](header.png)
 
 In the last article, we talked about how to use Cargo for Rust projects and highlighted some of its most common commands. We are now going to go further and start talking about variables and mutability.
 

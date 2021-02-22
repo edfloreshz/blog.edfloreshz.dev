@@ -8,7 +8,7 @@ publishdate: 2020-09-25
 summary: In this article, we'll be discussing the various data types in Rust
 ---
 
-![Header](V6MR9SsPQ.png)
+![Header](header.png)
 
 In this article, we'll be discussing the various data types in Rust.
 
