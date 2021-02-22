@@ -1,5 +1,6 @@
 ---
 title: "Best Development Tools And Resources For Rust"
+tags: ["rust", "basics", "tools"]
 layout: "tools"
 url: "articles/tools"
 author: "Eduardo Flores"

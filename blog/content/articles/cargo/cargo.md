@@ -1,6 +1,6 @@
 ---
 title: "Let's Talk About Cargo For Rust Projects"
-tags: ["first"]
+tags: ["cargo", "rust", "tools"]
 layout: "post"
 url: "articles/cargo"
 author: "Eduardo Flores"

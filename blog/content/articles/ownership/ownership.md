@@ -1,5 +1,6 @@
 ---
 title: "Understanding Ownership In Rust"
+tags: ["rust", "basics"]
 layout: "post"
 url: "articles/ownership"
 author: "Eduardo Flores"

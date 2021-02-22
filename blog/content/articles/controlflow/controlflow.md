@@ -1,5 +1,6 @@
 ---
 title: "Control Flow In Rust"
+tags: ["rust", "basics"]
 layout: "post"
 url: "articles/controlflow/"
 author: "Eduardo Flores"

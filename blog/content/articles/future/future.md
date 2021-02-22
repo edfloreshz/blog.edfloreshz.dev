@@ -1,5 +1,6 @@
 ---
 title: "Should we trust Rust with the future of systems programming?"
+tags: ["rust", "industry"]
 layout: "future"
 url: "articles/future"
 author: "Eduardo Flores"

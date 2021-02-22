@@ -1,0 +1,10 @@
+{
+  "configurations": [
+    {
+      "type": "firefox",
+      "name": "http://localhost:1313/blog",
+      "request": "launch",
+      "url": "http://localhost:1313/blog"
+    }
+  ]
+}

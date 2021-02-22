@@ -57,14 +57,15 @@ params:
     apple_touch_icon: "images/favicon/favicon.png"
     safari_pinned_tab: "images/favicon/favicon.png"
 
-  fuseOpts:
-    isCaseSensitive: false
-    shouldSort: true
-    location: 0
-    distance: 1000
-    threshold: 0.4
-    minMatchCharLength: 0
-    keys: ["title", "summary", "content"]
+  params:
+    fuseOpts:
+      isCaseSensitive: false
+      shouldSort: true
+      location: 0
+      distance: 1000
+      threshold: 0.4
+      minMatchCharLength: 0
+      keys: ["title", "permalink", "summary", "content"]
 
   socialIcons:
     - name: twitter
@@ -74,8 +75,8 @@ params:
     - name: github
       url: "https://github.com/edfloreshz"
 
-  outputs:
-    home:
-      - HTML
-      - RSS
-      - JSON # is necessary
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON

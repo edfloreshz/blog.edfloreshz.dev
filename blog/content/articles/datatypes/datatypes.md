@@ -1,5 +1,6 @@
 ---
 title: "Data Types In Rust"
+tags: ["rust", "basics"]
 layout: "post"
 url: "articles/datatypes"
 author: "Eduardo Flores"

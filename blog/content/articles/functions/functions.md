@@ -1,5 +1,6 @@
 ---
 title: "Functions In Rust"
+tags: ["rust", "basics"]
 layout: "post"
 url: "articles/functions"
 author: "Eduardo Flores"

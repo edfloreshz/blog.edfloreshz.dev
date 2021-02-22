@@ -1,5 +1,6 @@
 ---
 title: "Variables And Mutability In Rust"
+tags: ["rust", "basics"]
 layout: "post"
 url: "articles/varmut"
 author: "Eduardo Flores"

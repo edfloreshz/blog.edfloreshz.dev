@@ -1,5 +1,6 @@
 ---
 title: "Tips to deal with side projects"
+tags: ["tips", "tricks"]
 layout: "post"
 url: "articles/tips"
 author: "Eduardo Flores"

@@ -1,5 +1,6 @@
 ---
 title: "How to triple-boot Windows, macOS and Linux?"
+tags: ["tools", "development"]
 layout: "post"
 url: "articles/tripleboot"
 author: "Eduardo Flores"

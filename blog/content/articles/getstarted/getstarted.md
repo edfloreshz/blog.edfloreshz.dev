@@ -1,5 +1,6 @@
 ---
 title: "How to get started with Rust?"
+tags: ["rust", "basics"]
 layout: "post"
 url: "articles/getstarted"
 author: "Eduardo Flores"
