@@ -5,12 +5,27 @@ title: edfloreshz
 
 theme: "PaperMod"
 
+menu:
+  main:
+    - identifier: about
+      name: about
+      url: /about/
+      weight: 10
+    - identifier: articles
+      name: articles
+      url: /articles/
+      weight: 20
+    - identifier: search
+      name: search
+      url: /search/
+      weight: 30
+
 params:
   profileMode:
     enabled: true # needs to be explicitly set
     title: Hello, I'm Eddy!
     subtitle: "I write about my professional career 🦀"
-    imageUrl: images/profile.jpg
+    imageUrl: images/profile/profile.jpg
     imageWidth: 200
     imageHeight: 200
     imageTitle: profile
@@ -21,6 +36,8 @@ params:
         url: articles
       - name: Search
         url: search
+      - name: Tags
+        url: tags
 
   defaultTheme: auto # dark, light
   disableThemeToggle: false
@@ -34,13 +51,11 @@ params:
   tocopen: false
 
   assets:
-    # disableHLJS: true # to disable highlight.js
-    # disableFingerprinting: true
-    # favicon: "<link / abs url>"
-    # favicon16x16: "<link / abs url>"
-    # favicon32x32: "<link / abs url>"
-    # apple_touch_icon: "<link / abs url>"
-    # safari_pinned_tab: "<link / abs url>"
+    favicon: "images/favicon/favicon.png"
+    favicon16x16: "images/favicon/favicon.png"
+    favicon32x32: "images/favicon/favicon.png"
+    apple_touch_icon: "images/favicon/favicon.png"
+    safari_pinned_tab: "images/favicon/favicon.png"
 
   fuseOpts:
     isCaseSensitive: false
@@ -49,7 +64,7 @@ params:
     distance: 1000
     threshold: 0.4
     minMatchCharLength: 0
-    keys: ["title", "permalink", "summary", "content"]
+    keys: ["title", "summary", "content"]
 
   socialIcons:
     - name: twitter
