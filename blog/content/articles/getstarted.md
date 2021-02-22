@@ -6,9 +6,10 @@ url: "articles/getstarted"
 author: "Eduardo Flores"
 publishdate: 2020-09-16
 summary: This is the first in a series of articles to help developers understand Rust better
+cover:
+    image: "images/articles/getstarted/header.png"
+    relative: true
 ---
-
-![Header](header.png)
 
 This is the first in a series of articles to help developers understand **Rust** better, I will be covering most of what you can find in [The Rust Book](https://doc.rust-lang.org/book/), in a more synthesized and concise way. I will start with the basics and build my way up to more complex topics.
 

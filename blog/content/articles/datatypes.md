@@ -6,9 +6,10 @@ url: "articles/datatypes"
 author: "Eduardo Flores"
 publishdate: 2020-09-25
 summary: In this article, we'll be discussing the various data types in Rust
+cover:
+    image: "images/articles/datatypes/header.png"
+    relative: true
 ---
-
-![Header](header.png)
 
 In this article, we'll be discussing the various data types in Rust.
 

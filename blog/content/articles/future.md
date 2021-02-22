@@ -6,9 +6,10 @@ url: "articles/future"
 author: "Eduardo Flores"
 publishdate: 2020-08-30
 summary: The purpose of this article is to explore Rust in the systems programming.
+cover:
+    image: "images/articles/future/header.png"
+    relative: true
 ---
-
-![Header](header.png)
 
 That's a pretty daring question considering Rust has been around for a fairly short amount of time and in that time has become the most loved language for 5 years in a row, according to the Stack Overflow [Developer Surveys](https://insights.stackoverflow.com/survey/2020#technology-most-loved-dreaded-and-wanted-languages-loved).
 
