@@ -7,6 +7,8 @@ publishdate: 2020-09-18
 summary: We are now going to go further and start talking about variables and mutability.
 ---
 
+![Header](46GVcAL8q.png)
+
 In the last article, we talked about how to use Cargo for Rust projects and highlighted some of its most common commands. We are now going to go further and start talking about variables and mutability.
 
 One of Rust's main features is that variables are immutable by default, which means that values cannot change once set. This might seem odd at first, mainly because we sometimes need to change values in order to make our program work, but fear not, you can still make them mutable!

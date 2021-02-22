@@ -7,6 +7,8 @@ publishdate: 2020-09-25
 summary: In this article, we'll be discussing the various data types in Rust
 ---
 
+![Header](V6MR9SsPQ.png)
+
 In this article, we'll be discussing the various data types in Rust.
 
 Rust differs from languages like Python or JavaScript in many ways, Rust is what's known as a strongly typed language, this means that every variable must have a predefined data type bound to it at compile-time, in weakly typed languages, you don't have to explicitly define them because it makes conversions between unrelated types implicitly. Of course, this comes at a cost, while weakly typed languages have many advantages, speed isn't one of them.

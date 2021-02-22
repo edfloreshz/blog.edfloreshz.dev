@@ -7,6 +7,8 @@ publishdate: 2020-08-30
 summary: In this article, we'll be discussing some tips I've encountered that have helped me stick with my side projects until they're done.
 ---
 
+![Header](DleUlXgag.png)
+
 So here you are once again, procrastinating your time... but not to worry, this article intends to help you get better at getting things done!
 
 If you are passionate about programming you've probably started a side project by now, first you have an idea, it can go from building the next big thing to just building a simple to-do list, it doesn't matter. You start really excited and throw in some code until a few days later it all falls apart, you've lost all interest or enthusiasm.

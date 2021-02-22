@@ -7,6 +7,9 @@ publishdate: 2020-08-24
 summary: The purpose of this article is to help Rust developers find tools and resources to make the most out of their developer experience
 ---
 
+![Header](1u2E1J5iZ.png)
+
+
 As new Rust developers, we constantly encounter new challenges, especially coming from languages like JavaScript or Python. Rust isn't as familiar as other languages, but being a modern language it brings many benefits to the table that other older languages don't.
 
 The purpose of this article is to help Rust developers find tools and resources to make the most out of their developer experience. If you are reading this and Rust is not installed in your system head over to this [website](https://www.rust-lang.org/tools/install) and install it.

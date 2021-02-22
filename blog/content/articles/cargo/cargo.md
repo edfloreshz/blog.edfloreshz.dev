@@ -7,6 +7,8 @@ publishdate: 2020-09-17
 summary: We are now going to discuss how can we use Cargo, one of the tools we talked about that comes with Rust
 ---
 
+![Header](XIuYzQBNV.png)
+
 In the last article, we talked about the basics to get started with Rust, we even wrote our first, very simple program. We are now going to discuss how can we use Cargo, one of the tools we talked about that comes with Rust.
 
 **Cargo** is Rust's package manager, with it, you can add dependencies to your projects, for instance, let's say you need to generate random numbers, well, there's a [crate](https://crates.io/crates/rand) for that.

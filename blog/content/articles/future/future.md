@@ -7,6 +7,8 @@ publishdate: 2020-08-30
 summary: The purpose of this article is to explore Rust in the systems programming.
 ---
 
+![Header](cahJGXdrf.png)
+
 That's a pretty daring question considering Rust has been around for a fairly short amount of time and in that time has become the most loved language for 5 years in a row, according to the Stack Overflow [Developer Surveys](https://insights.stackoverflow.com/survey/2020#technology-most-loved-dreaded-and-wanted-languages-loved).
 
 It is very clear that developers love working with Rust, many big companies have been adopting it to fix many of the memory issues C and C++ have caused by taking advantage of Rust's memory safety capabilities. Microsoft recently started rewriting [core components](https://msrc-blog.microsoft.com/2019/11/07/using-rust-in-windows/) of Windows in Rust and the folks in charge of Linux have been talking about integrating Rust to the [kernel](https://lore.kernel.org/lkml/CAKwvOdmuYc8rW_H4aQG4DsJzho=F+djd68fp7mzmBp3-wY--Uw@mail.gmail.com/T/). That's a big step for Rust.

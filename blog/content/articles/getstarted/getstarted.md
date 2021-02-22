@@ -7,6 +7,8 @@ publishdate: 2020-09-16
 summary: This is the first in a series of articles to help developers understand Rust better
 ---
 
+![Header](thC0Mv6ku.png)
+
 This is the first in a series of articles to help developers understand **Rust** better, I will be covering most of what you can find in [The Rust Book](https://doc.rust-lang.org/book/), in a more synthesized and concise way. I will start with the basics and build my way up to more complex topics.
 
 #### Disclaimer
