@@ -67,7 +67,7 @@ Be sure that your goals are **specific**, meaning that they're very clear in wha
 
 # Some extra advice
 
-**Talk to friends in real life **-> This can be a really good way to distract yourself for a moment when you are feeling frustrated about a problem you have.
+**Talk to friends in real life** -> This can be a really good way to distract yourself for a moment when you are feeling frustrated about a problem you have.
 
 **Join friendly online communities** -> This can be really helpful when having questions and finding people that can answer them.
 
