@@ -1,14 +1,13 @@
 ---
-title: "Variables And Mutability In Rust"
-tags: ["rust", "basics"]
-layout: "post"
-url: "articles/varmut"
-author: "Eduardo Flores"
-publishdate: 2020-09-18
-summary: We are now going to go further and start talking about variables and mutability
-cover:
-    image: "images/articles/varmut/header.png"
-    relative: false
+title: Variables And Mutability In Rust
+tags: [rust, basics]
+layout: post
+url: articles/varmut
+author: Eduardo Flores
+publishdate: 2020-09-18T00:00:00.000Z
+summary: In the last article, we talked about how to use Cargo for Rust projects and highlighted some of its most common commands. We are now going to go further and start talking about variables and mutability.
+cover: {image: images/articles/varmut/header.png, relative: false}
+twittercover: {image: images/articles/varmut/cover.png, relative: false}
 ---
 
 In the last article, we talked about how to use Cargo for Rust projects and highlighted some of its most common commands. We are now going to go further and start talking about variables and mutability.
@@ -61,13 +60,11 @@ To learn more, run the command again with --verbose.
 
 Look closely for `error[E0384]: cannot assign twice to immutable variable 'x'`, this might've already given you a clue of what's going on, but I'll go through the error message and explain what's going on in detail.
 
-What this error is basically telling us is that we tried to change an immutable variable and since this is not allowed the compiler will yell at us, it might appear like a simple thing to complain about, but the Rust compiler is very strict and for good reason, the error messages only mean your program isn’t safely doing what you want it to do yet.
+What this error is basically telling us is that we tried to change an immutable variable and since this is not allowed the compiler will yell at us, it might appear like a simple thing to complain about, but the Rust compiler is very strict and for good reason, the error messages only mean your program isn't safely doing what you want it to do yet.
 
 The Rust compiler not only checks for errors, but it also tries to give you suggestions on how to solve them, check for lines like this:
 
-```
-help: make this binding mutable: 'mut x'
-```
+    help: make this binding mutable: 'mut x'
 
 Also, look for error codes in your compiler output, it might give you a better clue of what's going on. For example, `error[E0384]` is something you can look up and get help with, try either using `rustc --explain E0384` or find the error code in the [Rust Compiler Error Index](https://doc.rust-lang.org/error-index.html).
 
@@ -90,13 +87,13 @@ By now, if you have used constants before you might've thought
 
 > "Immutable variables are basically constants then?"
 
-Well, not exactly, first, you aren’t allowed to use mut with constants, they aren't just immutable by default, they are immutable forever.
+Well, not exactly, first, you aren't allowed to use mut with constants, they aren't just immutable by default, they are immutable forever.
 
 You declare constants with the `const` keyword and you must always annotate the data type, like so:
 
 ```rust
 const MAX_POINTS: u32 = 100_000;
-// Rust’s naming convention for constants is to use all uppercase with underscores between words, and underscores can be inserted in numeric literals to improve readability
+// Rust's naming convention for constants is to use all uppercase with underscores between words, and underscores can be inserted in numeric literals to improve readability
 ```
 
 Constants can be declared in any scope, including the global scope, which makes them useful for values that many parts of code need to know about.
@@ -126,7 +123,7 @@ $ cargo run
 The value of x is: 12
 ```
 
-Shadowing is different from marking a variable as `mut` because we’ll get a compile-time error if we accidentally try to reassign to this variable without using the `let` keyword. By using `let`, we can perform a few transformations on a value but have the variable be **immutable** after those transformations have been completed. By using shadowing, we are also able to reuse the same name as the previous variable.
+Shadowing is different from marking a variable as `mut` because we'll get a compile-time error if we accidentally try to reassign to this variable without using the `let` keyword. By using `let`, we can perform a few transformations on a value but have the variable be **immutable** after those transformations have been completed. By using shadowing, we are also able to reuse the same name as the previous variable.
 
 # What's next?
 

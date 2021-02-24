@@ -6,9 +6,8 @@ url: "articles/tips"
 author: "Eduardo Flores"
 publishdate: 2020-08-30
 summary: In this article, we'll be discussing some tips I've encountered that have helped me stick with my side projects until they're done.
-cover:
-    image: "images/articles/tips/header.png"
-    relative: false
+cover: {image: images/articles/tips/header.png, relative: false}
+twittercover: {image: images/articles/tips/cover.png, relative: false}
 ---
 
 So here you are once again, procrastinating your time... but not to worry, this article intends to help you get better at getting things done!

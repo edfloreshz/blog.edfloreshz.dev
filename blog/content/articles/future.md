@@ -6,9 +6,8 @@ url: "articles/future"
 author: "Eduardo Flores"
 publishdate: 2020-08-30
 summary: The purpose of this article is to explore Rust in the systems programming.
-cover:
-    image: "images/articles/future/header.png"
-    relative: false
+cover: {image: images/articles/future/header.png, relative: false}
+twittercover: {image: images/articles/future/cover.png, relative: false}
 ---
 
 That's a pretty daring question considering Rust has been around for a fairly short amount of time and in that time has become the most loved language for 5 years in a row, according to the Stack Overflow [Developer Surveys](https://insights.stackoverflow.com/survey/2020#technology-most-loved-dreaded-and-wanted-languages-loved).
@@ -25,10 +24,10 @@ But is Rust up to the challenge? Many developers have been rewriting software wr
 
 Here's a small [list](https://zaiste.net/posts/shell-commands-rust/) of projects to check out:
 
-1. [bat](https://zaiste.net/posts/shell-commands-rust/#bat) -> is a `cat` clone with syntax highlighting.
-2. [exa](https://zaiste.net/posts/shell-commands-rust/#exa) -> is a modern replacement for `ls`.
-3. [starship](https://zaiste.net/posts/shell-commands-rust/#starship) -> is a minimal, blazing-fast, and infinitely customizable prompt for any shell.
-4. [ripgrep](https://zaiste.net/posts/shell-commands-rust/#ripgrep) -> is an extremely fast alternative to `grep`
+1.  [bat](https://zaiste.net/posts/shell-commands-rust/#bat) -> is a `cat` clone with syntax highlighting.
+2.  [exa](https://zaiste.net/posts/shell-commands-rust/#exa) -> is a modern replacement for `ls`.
+3.  [starship](https://zaiste.net/posts/shell-commands-rust/#starship) -> is a minimal, blazing-fast, and infinitely customizable prompt for any shell.
+4.  [ripgrep](https://zaiste.net/posts/shell-commands-rust/#ripgrep) -> is an extremely fast alternative to `grep`
 
 # Operating systems written in Rust
 
@@ -50,7 +49,7 @@ While Rust has come a long way but it still lacks many of the features that C/C+
 
 **Sanitizers** -> Due to the type system, safe Rust code has much less need for sanitizers, when it comes to unsafe code, C++ has the advantage as it has more tools available.
 
-There's also safe transmutation (safely cast “plain old data” types to and from raw bytes), safe support for C style unions, and fallible allocation (fail gracefully from allocation failure, rather than panic) as stated by Microsoft.
+There's also safe transmutation (safely cast "plain old data" types to and from raw bytes), safe support for C style unions, and fallible allocation (fail gracefully from allocation failure, rather than panic) as stated by Microsoft.
 
 # Conclusion
 

@@ -1,14 +1,13 @@
 ---
-title: "How to get started with Rust?"
-tags: ["rust", "basics"]
-layout: "post"
-url: "articles/getstarted"
-author: "Eduardo Flores"
-publishdate: 2020-09-16
+title: How to get started with Rust?
+tags: [rust, basics]
+layout: post
+url: articles/getstarted
+author: Eduardo Flores
+publishdate: 2020-09-16T00:00:00.000Z
 summary: This is the first in a series of articles to help developers understand Rust better
-cover:
-    image: "images/articles/getstarted/header.png"
-    relative: false
+cover: {image: images/articles/getstarted/header.png, relative: false}
+twittercover: {image: images/articles/getstarted/cover.png, relative: false}
 ---
 
 This is the first in a series of articles to help developers understand **Rust** better, I will be covering most of what you can find in [The Rust Book](https://doc.rust-lang.org/book/), in a more synthesized and concise way. I will start with the basics and build my way up to more complex topics.
@@ -29,9 +28,7 @@ If you use Windows, you can download the installer [here](https://www.rust-lang.
 
 Install Rust by pasting this in your terminal if you're on a UNIX based system
 
-```
-curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
-```
+    curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 
 You will be presented with the following
 
@@ -85,14 +82,12 @@ Current installation options:
 
 Type your desired method of installation and let the installer do its thing. Once it's done, open a new instance of your terminal and type `rustc`, you should see something like this
 
-```
-Usage: rustc [OPTIONS] INPUT
+    Usage: rustc [OPTIONS] INPUT
 
-Options:
-    -h, --help          Display this message
-        --cfg SPEC      Configure the compilation environment
-    -L [KIND=]PATH      Add a directory to the library search path. [...]
-```
+    Options:
+        -h, --help          Display this message
+            --cfg SPEC      Configure the compilation environment
+        -L [KIND=]PATH      Add a directory to the library search path. [...]
 
 # What just happened?
 
@@ -131,11 +126,9 @@ emacs main.rs
 
 And write the following:
 
-```
-fn main() {
-    println!("Hello, world");
-}
-```
+    fn main() {
+        println!("Hello, world");
+    }
 
 `fn` is the keyword for defining new functions and `main` is the name for that function, also the entry point for our program. `println!` is a macro, not a function, we will learn more about macros in a future article but for now, know that `println!` will print "Hello, world" to the terminal.
 

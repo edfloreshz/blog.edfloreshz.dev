@@ -6,9 +6,8 @@ url: "articles/tripleboot"
 author: "Eduardo Flores"
 publishdate: 2020-09-16
 summary: As developers, we sometimes require to test our software on different platforms, this can be hard to do especially if you don't own a Mac, fortunately, there is a way to do exactly that
-cover:
-    image: "images/articles/tripleboot/header.png"
-    relative: false
+cover: {image: images/articles/tripleboot/header.png, relative: false}
+twittercover: {image: images/articles/tripleboot/cover.png, relative: false}
 ---
 
 As developers, we sometimes require to test our software on different platforms, this can be hard to do especially if you don't own a Mac, fortunately, there is a way to do exactly that.

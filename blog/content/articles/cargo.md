@@ -6,9 +6,8 @@ url: "articles/cargo"
 author: "Eduardo Flores"
 publishdate: 2020-09-17
 summary: We are now going to discuss how can we use Cargo, one of the tools we talked about that comes with Rust
-cover:
-    image: "images/articles/cargo/header.png"
-    relative: false
+cover: {image: images/articles/cargo/header.png, relative: false}
+twittercover: {image: images/articles/cargo/cover.png, relative: false}
 ---
 
 In the last article, we talked about the basics to get started with Rust, we even wrote our first, very simple program. We are now going to discuss how can we use Cargo, one of the tools we talked about that comes with Rust.
