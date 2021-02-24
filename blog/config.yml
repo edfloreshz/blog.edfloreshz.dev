@@ -2,9 +2,8 @@ baseURL: https://edfloreshz.blog
 languageCode: en-us
 paginate: 5
 title: edfloreshz
-description: I write about my professional career 🦀
-cover: { image: images/profile/header.png, relative: false }
-twittercover: { image: images/profile/cover.png, relative: false }
+summary: I write about my professional career 🦀
+
 theme: "PaperMod"
 
 menu:
@@ -27,6 +26,8 @@ menu:
       weight: 30
 
 params:
+  cover: { image: images/profile/header.png, relative: false }
+  twittercover: { image: images/profile/cover.png, relative: false }
   profileMode:
     enabled: true # needs to be explicitly set
     title: Hello, I'm Eddy!
