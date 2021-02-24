@@ -2,6 +2,7 @@
 <meta property="og:description" content="{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end }}" />
 <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}" />
 <meta property="og:url" content="{{ .Permalink }}" />
+
 {{- if .Params.cover.image -}}
 {{- if (ne .Params.cover.relative true) }}
 <meta property="og:image" content="{{ .Params.cover.image | absURL }}" />
@@ -20,6 +21,27 @@
 {{ else -}}
 {{- with $.Site.Params.images -}}
 <meta property="og:image" content="{{ index . 0 | absURL }}"/>
+{{ end }}{{ end }}{{ end }}
+{{- end }}
+
+{{- if .Params.twittercover.image -}}
+{{- if (ne .Params.twittercover.relative true) }}
+<meta property="twitter:image" content="{{ .Params.twittercover.image | absURL }}" />
+{{- else}}
+<meta property="twitter:image" content="{{ (path.Join .RelPermalink .Params.twittercover.image ) | absURL }}" />
+{{- end}}
+{{- else }}
+{{ with $.Params.images }}{{ range first 6 . -}}
+<meta property="twitter:image" content="{{ . | absURL }}" />
+{{ end }}{{ else -}}
+{{- $images := $.Resources.ByType "image" -}}
+{{- $featured := $images.GetMatch "*feature*" -}}
+{{- if not $featured }}{{ $featured = $images.GetMatch "{*twittercover*,*thumbnail*}" }}{{ end -}}
+{{- with $featured -}}
+<meta property="twitter:image" content="{{ $featured.Permalink }}"/>
+{{ else -}}
+{{- with $.Site.Params.images -}}
+<meta property="twitter:image" content="{{ index . 0 | absURL }}"/>
 {{ end }}{{ end }}{{ end }}
 {{- end }}
 
