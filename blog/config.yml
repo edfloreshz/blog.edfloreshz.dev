@@ -42,7 +42,7 @@ params:
         url: search
       - name: Tags
         url: tags
-
+  ShowPostNavLinks: true
   defaultTheme: auto # dark, light
   disableThemeToggle: false
 

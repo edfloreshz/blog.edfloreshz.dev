@@ -8,7 +8,7 @@ publishdate: 2020-10-12
 summary: In this article, we'll be discussing what control flow is and how we can use it in Rust
 cover:
     image: "images/articles/functions/header.png"
-    relative: true
+    relative: false
 ---
 
 In this article, we'll be discussing what functions are and when to use them in Rust.

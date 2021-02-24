@@ -8,7 +8,7 @@ publishdate: 2020-09-18
 summary: We are now going to go further and start talking about variables and mutability
 cover:
     image: "images/articles/varmut/header.png"
-    relative: true
+    relative: false
 ---
 
 In the last article, we talked about how to use Cargo for Rust projects and highlighted some of its most common commands. We are now going to go further and start talking about variables and mutability.
