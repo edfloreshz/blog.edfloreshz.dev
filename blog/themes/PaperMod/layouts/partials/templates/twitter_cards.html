@@ -1,6 +1,6 @@
 {{- if .Params.twittercover.image -}}
 <meta name="twitter:card" content="summary_large_image" />
-{{- if (ne $.Params.cover.relative true) }}
+{{- if (ne $.Params.twittercover.relative true) }}
 <meta name="twitter:image" content="{{ .Params.twittercover.image | absURL }}" />
 {{- else }}
 <meta name="twitter:image" content="{{ (path.Join .RelPermalink .Params.twittercover.image ) | absURL }}" />
@@ -12,7 +12,7 @@
 {{ else -}}
 {{- $images := $.Resources.ByType "image" -}}
 {{- $featured := $images.GetMatch "*feature*" -}}
-{{- if not $featured }}{{ $featured = $images.GetMatch "{*cover*,*thumbnail*}" }}{{ end -}}
+{{- if not $featured }}{{ $featured = $images.GetMatch "{*twittercover*,*thumbnail*}" }}{{ end -}}
 {{- with $featured -}}
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="{{ $featured.Permalink }}"/>
