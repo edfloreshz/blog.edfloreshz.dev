@@ -21,7 +21,7 @@ jobs:
           # extended: true
 
       - name: Build
-        run: mkdir ./blog/public && cp CNAME ./blog/public && cd blog && hugo --minify
+        run: mkdir ./blog/public && cd blog && hugo --minify
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
