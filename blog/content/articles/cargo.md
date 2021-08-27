@@ -186,6 +186,6 @@ If you'd like to get a more in-depth look at Cargo you can check out the [Cargo 
 
 # What's next?
 
-In the next article, we'll talk about [variables and mutability](https://edfloreshz.blog/variables-and-mutability).
+In the next article, we'll talk about [variables and mutability](https://edfloreshz.github.io/blog/articles/variables-and-mutability).
 
 If you enjoyed this article, consider sharing it so more people can benefit from it! Also, feel free to [@me](https://twitter.com/edfloreshz) on Twitter or send me a [message](https://t.me/edfloreshz).
