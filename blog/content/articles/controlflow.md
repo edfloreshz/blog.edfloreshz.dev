@@ -217,6 +217,6 @@ fn main() {
 
 This was just a quick introduction to control flow, we will explore more about this in a later article.
 
-In the next article, we'll talk about [Understanding Ownership](https://edfloreshz.github.io/blog/articles/understanding-ownership-in-rust). Rust is a very unique programming language and ownership is one of the reasons why.
+In the next article, we'll talk about [Understanding Ownership](https://edfloreshz.dev/articles/understanding-ownership-in-rust). Rust is a very unique programming language and ownership is one of the reasons why.
 
 If you enjoyed this article, consider sharing it so more people can benefit from it! Also, feel free to [@me](https://twitter.com/edfloreshz) on Twitter or send me a message.
