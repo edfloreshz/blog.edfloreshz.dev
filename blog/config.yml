@@ -68,6 +68,8 @@ params:
       url: "https://t.me/edfloreshz"
     - name: github
       url: "https://github.com/edfloreshz"
+    - name: email
+      url: "mailto:edfloreshz@gmail.com"
 
 outputs:
   home:
