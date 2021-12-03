@@ -6,8 +6,9 @@ url: "articles/functions"
 author: "Eduardo Flores"
 publishdate: 2020-10-12
 summary: In this article, we'll be discussing what control flow is and how we can use it in Rust
-cover: {image: images/articles/functions/header.png, relative: false}
-twittercover: {image: images/articles/functions/cover.png, relative: false}
+cover: { image: images/articles/rust/functions/header.png, relative: false }
+twittercover:
+  { image: images/articles/rust/functions/cover.png, relative: false }
 ---
 
 In this article, we'll be discussing what functions are and when to use them in Rust.

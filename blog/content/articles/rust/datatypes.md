@@ -6,8 +6,9 @@ url: "articles/datatypes"
 author: "Eduardo Flores"
 publishdate: 2020-09-25
 summary: In this article, we'll be discussing the various data types in Rust
-cover: {image: images/articles/datatypes/header.png, relative: false}
-twittercover: {image: images/articles/datatypes/cover.png, relative: false}
+cover: { image: images/articles/rust/datatypes/header.png, relative: false }
+twittercover:
+  { image: images/articles/rust/datatypes/cover.png, relative: false }
 ---
 
 In this article, we'll be discussing the various data types in Rust.

@@ -1,16 +1,12 @@
 baseURL: https://blog.edfloreshz.dev
 languageCode: en-us
 paginate: 5
-title: edfloreshz
+title: edfloreshz's blog
 
 theme: "PaperMod"
 
 menu:
   main:
-    - identifier: about
-      name: about
-      url: /about/
-      weight: 10
     - identifier: articles
       name: articles
       url: /articles/
@@ -25,12 +21,17 @@ menu:
       weight: 30
 
 params:
-  cover: { image: images/profile/header.png, relative: false }
-  twittercover: { image: images/profile/cover.png, relative: false }
-  description: I write about my professional career 🦀
-  homeInfoParams:
-    title: Hello, I'm Eddy!
-    content: "I write about my professional career 🦀"
+  profileMode:
+    enabled: true
+    title: "edfloreshz's blog" # optional default will be site title
+    subtitle: "I write articles about technology and programming 🦀"
+    imageUrl: "images/profile/profile.jpg" # optional
+    imageTitle: "<title of image as alt>" # optional
+    imageWidth: 120 # custom size
+    imageHeight: 120 # custom size
+    buttons:
+      - name: articles
+        url: "articles"
 
   ShowPostNavLinks: true
   defaultTheme: auto # dark, light
@@ -41,7 +42,7 @@ params:
   disableSpecial1stPost: false
   comments: false
   hidemeta: false
-  showtoc: false
+  showtoc: true
   tocopen: false
 
   assets:

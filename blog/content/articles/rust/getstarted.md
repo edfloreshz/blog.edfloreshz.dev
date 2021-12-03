@@ -6,8 +6,9 @@ url: articles/getstarted
 author: Eduardo Flores
 publishdate: 2020-09-16T00:00:00.000Z
 summary: This is the first in a series of articles to help developers understand Rust better
-cover: {image: images/articles/getstarted/header.png, relative: false}
-twittercover: {image: images/articles/getstarted/cover.png, relative: false}
+cover: { image: images/articles/rust/getstarted/header.png, relative: false }
+twittercover:
+  { image: images/articles/rust/getstarted/cover.png, relative: false }
 ---
 
 This is the first in a series of articles to help developers understand **Rust** better, I will be covering most of what you can find in [The Rust Book](https://doc.rust-lang.org/book/), in a more synthesized and concise way. I will start with the basics and build my way up to more complex topics.
