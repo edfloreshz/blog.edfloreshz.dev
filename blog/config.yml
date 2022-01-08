@@ -1,7 +1,7 @@
 baseURL: https://blog.edfloreshz.dev
 languageCode: en-us
 paginate: 5
-title: edfloreshz's blog
+title: edfloreshz
 
 theme: "PaperMod"
 
@@ -23,8 +23,8 @@ menu:
 params:
   profileMode:
     enabled: true
-    title: "edfloreshz's blog" # optional default will be site title
-    subtitle: "I write articles about technology and programming 🦀"
+    title: "loop {}" # optional default will be site title
+    subtitle: "a blog about technology and programming 🦀"
     imageUrl: "images/profile/profile.jpg" # optional
     imageTitle: "<title of image as alt>" # optional
     imageWidth: 120 # custom size

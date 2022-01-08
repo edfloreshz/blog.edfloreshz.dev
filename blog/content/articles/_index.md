@@ -1,3 +1,3 @@
 ---
-title: post collections
+title: collections
 ---
