@@ -54,8 +54,6 @@ params:
     safari_pinned_tab: "images/favicon/favicon.png"
 
   params:
-    cover: { image: images/cover/dark.png, relative: false }
-    twittercover: { image: images/header/dark.png, relative: false }
     fuseOpts:
       isCaseSensitive: false
       shouldSort: true
