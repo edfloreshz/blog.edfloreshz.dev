@@ -42,7 +42,7 @@
 {{- end}}
 <!-- Theme -->
 {{- $theme := resources.Get "js/theme.js" }}
-<script defer src="{{ $theme.RelPermalink }}" onload="loadTheme();" integrity="{{ $theme.Data.Integrity }}"></script>
+<script defer src="{{ $theme.RelPermalink }}" onload="changeGiscusTheme();" integrity="{{ $theme.Data.Integrity }}"></script>
 <!-- Search -->
 {{- if (eq .Layout `search`) -}}
 <link rel="preload" as="fetch" href="../index.json" crossOrigin="anonymous">
