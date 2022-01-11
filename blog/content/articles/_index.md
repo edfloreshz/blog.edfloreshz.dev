@@ -1,3 +1,3 @@
 ---
-title: collections
+title: Topics
 ---

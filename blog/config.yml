@@ -8,29 +8,30 @@ theme: "PaperMod"
 menu:
   main:
     - identifier: articles
-      name: articles
+      name: Articles
       url: /articles/
       weight: 20
     - identifier: search
-      name: search
+      name: Search
       url: /search/
       weight: 30
     - identifier: tags
-      name: tags
+      name: Tags
       url: /tags/
       weight: 30
 
 params:
   profileMode:
     enabled: true
-    title: "loop {}" # optional default will be site title
-    subtitle: "a blog about technology and programming 🦀"
-    imageUrl: "images/profile/profile.jpg" # optional
-    imageTitle: "<title of image as alt>" # optional
-    imageWidth: 120 # custom size
-    imageHeight: 120 # custom size
+    title: "Devloop" # optional default will be site title
+    subtitle: "A blog about technology and programming 🦀"
+    imageUrl: "images/logo/light.svg" # optional
+    darkImageUrl: "images/logo/dark.svg" # optional
+    imageTitle: "Logo" # optional
+    imageWidth: 250 # custom size
+    imageHeight: 250 # custom size
     buttons:
-      - name: articles
+      - name: Articles
         url: "articles"
 
   ShowPostNavLinks: true
@@ -38,7 +39,7 @@ params:
   disableThemeToggle: false
 
   ShowReadingTime: true
-  ShowShareButtons: true
+  ShowShareButtons: false
   disableSpecial1stPost: false
   comments: true
   hidemeta: false
