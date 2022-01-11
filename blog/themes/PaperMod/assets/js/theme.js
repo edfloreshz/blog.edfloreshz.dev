@@ -1,5 +1,4 @@
 function changeGiscusTheme () {
-    console.log("changeGiscusTheme");
     const theme = localStorage.getItem("pref-theme") === "dark" ?  'light' : 'dark_dimmed'
 
     function sendMessage(message) {
