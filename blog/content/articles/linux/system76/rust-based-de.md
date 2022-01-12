@@ -58,7 +58,7 @@ There is already a working version of Pop Launcher, it's built using GTK.
 
 The new launcher is fairly similar to the one that is currently available in Pop!_OS.
 
-![launcher](/images/articles/linux/system76/rust-based-de/launcher.png "Launcher")
+![launcher](/images/articles/linux/system76/rust-based-de/launcher.png "Current Launcher")
 
 There aren't any major changes, but there are some minor ones:
 - The launcher is a bit smaller and more compact.
@@ -70,7 +70,7 @@ I found a small bug where if you selected an application and then return to sear
 # App Library
 Pop!_OS recently received an [update](https://blog.system76.com/post/670564272872488960/popos-2110-has-landed) to the App Library where instead of opening in fullscreen, the app is opened in a floating window.
 
-![app_library](/images/articles/linux/system76/rust-based-de/app_library.png "App Library")
+![app_library](/images/articles/linux/system76/rust-based-de/app_library.png "Current App Library")
 
 COSMIC will is also have an app library, but it will be built using GTK.
 
@@ -81,6 +81,21 @@ We can notice that the new app library is very similar to the one that is curren
 As expected, there are some bugs present and some features missing, after all this is still a work in progress.
 
 I found a small bug where if you try to navigate the app grid with the keyboard, it opens the second app it selects, an [issue](https://github.com/pop-os/libcosmic/issues/8) has been filled.
+
+# Dock
+The new dock looks basically the same as the one that is currently available.
+
+![new_dock](/images/articles/linux/system76/rust-based-de/new_dock.png "New Dock")
+
+There's no visual difference between the two, we expect them to look and work the same.
+
+![dock](/images/articles/linux/system76/rust-based-de/dock.png "Current Dock")
+
+Here are some small details that I noticed:
+- Currently it's only possible to drop icons from the app library to the dock.
+- Non-favorite applications don't show up in the dock.
+- The dock is not expandable to the sides yet.
+- It is not possible to rearrange the dock icons.
 
 # Conclusion
 
