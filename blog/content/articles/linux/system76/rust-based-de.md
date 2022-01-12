@@ -46,7 +46,7 @@ One of the biggest changes is the search feature, in GNOME Settings, the search 
 
 ### Settings at a glance
 
-The search also displays a list of all the settings that match the search criteria and not only where they're located as GNOME Settings does, this makes it easier to change your settings without having to leave the section where you currently are.
+The search also displays a list of all the settings that match the search criteria and not only where they're located as GNOME Settings does, this makes it easier to change your settings without having to leave the section you currently are in.
 
 ![search_comparison](/images/articles/linux/system76/rust-based-de/search_comparison.png "Search Comparison")
 
@@ -72,7 +72,7 @@ Pop!_OS recently received an [update](https://blog.system76.com/post/67056427287
 
 ![app_library](/images/articles/linux/system76/rust-based-de/app_library.png "App Library")
 
-COSMIC will is also have an app library, but it will be built using GTK and Rust, here's a comparison between the two.
+COSMIC will is also have an app library, but it will be built using GTK.
 
 ![new_app_library](/images/articles/linux/system76/rust-based-de/new_app_library.png "New App Library")
 
@@ -85,7 +85,5 @@ I found a small bug where if you try to navigate the app grid with the keyboard,
 # Conclusion
 
 This is the first step towards creating a new desktop environment, there's no doubt that there are many things that will be improved. this is just the beginning.
-
-
 
 I hope that this article gives you an idea of what the future of the COSMIC desktop will be like.
