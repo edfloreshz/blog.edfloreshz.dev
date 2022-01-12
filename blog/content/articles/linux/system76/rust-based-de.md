@@ -40,11 +40,11 @@ Here's some of the UI changes I noticed:
 ![search](/images/articles/linux/system76/rust-based-de/search.png "Search")
 
 
-# Search
+## Search
 
 One of the biggest changes is the search feature, in GNOME Settings, the search bar is available at the top of the navigation view, this is problematic when inside nested menus as the user has to go back to the begining to access it, but in COSMIC it's available everywhere in the app, no matter how deep inside a menu the user is.
 
-## Settings at a glance
+### Settings at a glance
 
 The search also displays a list of all the settings that match the search criteria and not only where they're located as GNOME Settings does, this makes it easier to change your settings without having to leave the section where you currently are.
 
