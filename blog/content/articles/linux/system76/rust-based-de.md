@@ -56,7 +56,7 @@ There is already a working version of Pop Launcher, it's built using GTK.
 
 ![new_launcher](/images/articles/linux/system76/rust-based-de/new_launcher.png "New Launcher")
 
-The new launcher is fairly similar to the one that is currently available for the Pop!_OS.
+The new launcher is fairly similar to the one that is currently available in Pop!_OS.
 
 ![launcher](/images/articles/linux/system76/rust-based-de/launcher.png "Launcher")
 
