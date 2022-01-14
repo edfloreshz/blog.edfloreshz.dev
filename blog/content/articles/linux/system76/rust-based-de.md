@@ -97,6 +97,22 @@ Here are some small details that I noticed:
 - The dock is not expandable to the sides yet.
 - It is not possible to rearrange the dock icons.
 
+# Panel
+
+The panel has also been rewritten, it's now built using GTK.
+
+![panel](/images/articles/linux/system76/rust-based-de/panel.png "Current Panel")
+
+It not currently capable to trigger `Workspaces` or `Applications`, but it is capable of displaying a calendar and media controls when clicking the date button, and both of them work.
+
+![panel_popup](/images/articles/linux/system76/rust-based-de/panel_popup.png "Panel Popup")
+
+The new popup is considerably smaller, but we can expect it to look and work the same as the one that is currently available.
+
+![current_popup](/images/articles/linux/system76/rust-based-de/current_popup.png "Current Popup")
+
+There's quite a difference between the two, but then again, this is still a work in progress.
+
 # Conclusion
 
 This is the first step towards creating a new desktop environment, there's no doubt that there are many things that will be improved. this is just the beginning.
