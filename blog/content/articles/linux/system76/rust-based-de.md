@@ -109,6 +109,8 @@ It not currently capable to trigger `Workspaces` or `Applications`, but it is ca
 
 The new popup is considerably smaller, but we can expect it to look and work the same as the one that is currently available.
 
+The tray icons and system controls are still missing, but I'm sure they will be added in the future.
+
 ![current_popup](/images/articles/linux/system76/rust-based-de/current_popup.png "Current Popup")
 
 There's quite a difference between the two, but then again, this is still a work in progress.
@@ -125,7 +127,7 @@ Once we have this open, we can run any application that we want to test and it o
 
 ![window_render](/images/articles/linux/system76/rust-based-de/window_render.png "Window Render")
 
-Here I opened the settings app and it opened in the compositor, everything I did inside the compositor was reflected in my OS.
+The settings app opened inside the compositor, every change I made to the settings app was reflected on my OS while running inside the compositor.
 
 I will run every new piece of software System76 is working on and see how it works inside the compositor in the future. 
 
