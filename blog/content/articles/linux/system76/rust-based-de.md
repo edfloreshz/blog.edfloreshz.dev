@@ -113,6 +113,24 @@ The new popup is considerably smaller, but we can expect it to look and work the
 
 There's quite a difference between the two, but then again, this is still a work in progress.
 
+# Compositor
+
+System76 is also working on a new compositor, they're using [Smithay](https://smithay.github.io/) for the backend.
+
+I tried running the compositor on a `tty` session but this behavior isn't implemented yet, we can, however, see the output of the compositor in a window.
+
+![compositor](/images/articles/linux/system76/rust-based-de/compositor.png "Compositor")
+
+Once we have this open, we can run any application that we want to test and it opens inside the compositor.
+
+![window_render](/images/articles/linux/system76/rust-based-de/window_render.png "Window Render")
+
+Here I opened the settings app and it opened in the compositor, everything I did inside the compositor was reflected in my OS.
+
+I will run every new piece of software System76 is working on and see how it works inside the compositor in the future. 
+
+Expect a follow up post soon.
+
 # Conclusion
 
 This is the first step towards creating a new desktop environment, there's no doubt that there are many things that will be improved. this is just the beginning.
