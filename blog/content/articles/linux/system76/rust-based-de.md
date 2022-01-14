@@ -72,7 +72,7 @@ Pop!_OS recently received an [update](https://blog.system76.com/post/67056427287
 
 ![app_library](/images/articles/linux/system76/rust-based-de/app_library.png "Current App Library")
 
-COSMIC will is also have an app library, but it will be built using GTK.
+COSMIC will also have an app library, but it will be built using GTK.
 
 ![new_app_library](/images/articles/linux/system76/rust-based-de/new_app_library.png "New App Library")
 
