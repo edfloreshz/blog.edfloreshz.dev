@@ -14,7 +14,7 @@ A few months ago System76 announced that they would be developing a new desktop 
 
 Their idea is to create a desktop environment that is similar to the one that is currently available for the Pop!_OS operating system, but with a different focus.
 
-System76's objective is to create something that is faster, more customizable, and free of the limitations of the GNOME desktop environment, and let's face it, we're all curious as to how this desktop will look like.
+System76's objective is to create something that is faster, more customizable, and free of the limitations of the GNOME desktop environment, and let's face it, we're all curious how this desktop will look.
 
 This post will explore how this new desktop environment is shaping up.
 
@@ -132,6 +132,24 @@ The settings app opened inside the compositor, every change I made to the settin
 I will run every new piece of software System76 is working on and see how it works inside the compositor in the future. 
 
 Expect a follow up post soon.
+
+# More details
+
+[Carl Ritchell](https://twitter.com/carlrichell), System76 CEO, has unveiled a possible release date for COSMIC, an alpha build it's currently scheduled for this summer, with the release build coming out in 2023.
+
+{{< tweet user="carlrichell" id="1482001617784213508" >}}
+
+As well as some details regarding the desktop environment itself.
+
+{{< tweet user="carlrichell" id="1482010029687406592" >}}
+
+When asked weather blur and transparency were going to be supported by the desktop, he replied the following:
+
+{{< tweet user="carlrichell" id="1482021993176186883" >}}
+
+Finally, for those worried about Pop's GNOME extensions, Carl tells us that they have maintainance and bug fixes planned for the next 5 years after the release of Pop!_OS 22.04
+
+{{< tweet user="carlrichell" id="1482013328922734594" >}}
 
 # Conclusion
 
