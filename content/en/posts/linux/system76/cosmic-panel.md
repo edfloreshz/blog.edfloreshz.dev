@@ -3,10 +3,9 @@ title: "COSMIC Panel First Look"
 tags: ["rust", "linux", "pop_os", "system76"]
 type: "blank"
 author: "Eduardo Flores"
+cover: /images/articles/linux/system76/cosmic_panel/cosmic_panel.png
 publishdate: 2022-01-19
 ---
-
-![cosmic-panel](/images/articles/linux/system76/cosmic_panel/cosmic_panel.png "Cosmic Panel")
 
 This article shows how the new COSMIC Panel will look like.
 

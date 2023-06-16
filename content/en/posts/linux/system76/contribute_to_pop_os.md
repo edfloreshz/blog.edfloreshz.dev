@@ -2,10 +2,9 @@
 title: "How to contribute to Pop!_OS?"
 tags: ["rust", "linux", "pop_os", "system76"]
 type: blank
+cover: /images/articles/linux/system76/contribute_to_pop_os/cover.png
 author: "Eduardo Flores"
 ---
-
-![cover](/images/articles/linux/system76/contribute_to_pop_os/cover.png)
 
 This article intends to compile everything you need to know to start contributing to Pop!_OS.
 

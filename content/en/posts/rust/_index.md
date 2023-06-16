@@ -1,5 +1,5 @@
 ---
-title: Rust
+title: 'Rust'
 type: postcard
 bookcase_cover_src: 'images/articles/rust/rust.png'
 bookcase_cover_src_dark: 'images/articles/rust/rust.png'

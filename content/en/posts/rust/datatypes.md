@@ -3,10 +3,9 @@ title: "Data Types In Rust"
 tags: ["rust", "basics"]
 type: "blank"
 author: "Eduardo Flores"
+cover: /images/articles/rust/datatypes/header.png
 publishdate: 2020-09-25
 ---
-
-![cover](/images/articles/rust/datatypes/header.png)
 
 In this article, we'll be discussing the various data types in Rust.
 

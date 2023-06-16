@@ -3,10 +3,9 @@ title: "Exploring System76's New Rust Based Desktop Environment"
 tags: ["rust", "linux", "pop_os", "system76"]
 type: "blank"
 author: "Eduardo Flores"
+cover: /images/articles/linux/system76/rust-based-de/rust-based-de.png
 publishdate: 2022-01-11
 ---
-
-![cover](/images/articles/linux/system76/rust-based-de/rust-based-de.png)
 
 This article intends to shine a light at the development of a new desktop environment for the Pop!_OS operating system.
 

@@ -3,10 +3,9 @@ title: "Functions In Rust"
 tags: ["rust", "basics"]
 type: "blank"
 author: "Eduardo Flores"
+cover: /images/articles/rust/functions/header.png
 publishdate: 2020-10-12
 ---
-
-![cover](/images/articles/rust/functions/header.png)
 
 In this article, we'll be discussing what functions are and when to use them in Rust.
 

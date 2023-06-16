@@ -3,10 +3,9 @@ title: Variables And Mutability In Rust
 tags: [rust, basics]
 layout: post
 author: Eduardo Flores
+cover: /images/articles/rust/varmut/header.png
 publishdate: 2020-09-18
 ---
-
-![cover](/images/articles/rust/varmut/header.png)
 
 In the last article, we talked about how to use Cargo for Rust projects and highlighted some of its most common commands. We are now going to go further and start talking about variables and mutability.
 

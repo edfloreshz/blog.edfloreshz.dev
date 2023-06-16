@@ -3,10 +3,10 @@ title: "Tips to deal with side projects"
 tags: ["tips", "tricks"]
 type: "blank"
 author: "Eduardo Flores"
+cover: /images/articles/career/tips/header.png
 publishdate: 2020-08-30
 ---
 
-![cover](/images/articles/career/tips/header.png)
 
 So here you are once again, procrastinating your time... but not to worry, this article intends to help you get better at getting things done!
 

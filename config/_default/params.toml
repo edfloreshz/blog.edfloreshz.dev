@@ -2,7 +2,7 @@ navbar_title = 'edfloreshz'
 footer = "Copyright © 2021-2022 by Eduardo Flores"
 author = "Eduardo Flores"
 
-enable_zooming_js = true
+enable_zooming_js = false
 enable_toc = true
 enable_site_search = true
 enable_math = true

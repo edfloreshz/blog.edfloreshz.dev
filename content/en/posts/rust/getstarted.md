@@ -3,10 +3,9 @@ title: How to get started with Rust?
 tags: [rust, basics]
 layout: post
 author: Eduardo Flores
+cover: /images/articles/rust/getstarted/header.png
 publishdate: 2020-09-16
 ---
-
-![cover](/images/articles/rust/getstarted/header.png)
 
 This is the first in a series of articles to help developers understand **Rust** better, I will be covering most of what you can find in [The Rust Book](https://doc.rust-lang.org/book/), in a more synthesized and concise way. I will start with the basics and build my way up to more complex topics.
 

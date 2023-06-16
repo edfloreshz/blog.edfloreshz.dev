@@ -3,10 +3,9 @@ title: "Control Flow In Rust"
 tags: ["rust", "basics"]
 type: "blank"
 author: "Eduardo Flores"
+cover: /images/articles/rust/controlflow/header.png
 publishdate: 2020-10-20
 ---
-
-![cover](/images/articles/rust/controlflow/header.png)
 
 In this article, we'll be discussing what control flow is and how we can use it in Rust.
 
