@@ -137,19 +137,19 @@ Expect a follow-up post soon.
 
 [Carl Ritchell](https://twitter.com/carlrichell), System76 CEO, has unveiled a possible release date for COSMIC, an alpha build it's currently scheduled for this summer, with the release build coming out in 2023.
 
-{{< tweet carlrichell 1482001617784213508 >}}
+{{< tweet 1482001617784213508 >}}
 
 As well as some details regarding the desktop environment itself.
 
-{{< tweet carlrichell 1482010029687406592 >}}
+{{< tweet 1482010029687406592 >}}
 
 When asked whether blur and transparency were going to be supported by the desktop, he replied the following:
 
-{{< tweet carlrichell 1482021993176186883 >}}
+{{< tweet 1482021993176186883 >}}
 
 Finally, for those worried about Pop's GNOME extensions, Carl tells us that they have maintenance and bug fixes planned for the next 5 years after the release of Pop!_OS 22.04
 
-{{< tweet carlrichell 1482013328922734594 >}}
+{{< tweet 1482013328922734594 >}}
 
 ## Conclusion
 

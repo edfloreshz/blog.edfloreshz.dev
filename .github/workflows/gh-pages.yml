@@ -3,28 +3,43 @@ name: github pages
 on:
   push:
     branches:
-      - main # Set a branch to deploy
+      - main
 
 jobs:
   deploy:
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
         with:
-          submodules: false # Fetch Hugo themes (true OR recursive)
-          fetch-depth: 0 # Fetch all history for .GitInfo and .Lastmod
+          ref: main
+          submodules: true
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: "latest"
-          # extended: true
+          hugo-version: '0.80.0'
+          extended: true
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v1
+        with:
+          node-version: '12'
+
+      - name: Composite package.json
+        run: hugo -s . --themesDir=./themes/ mod npm pack
+
+      - name: Setup Dependency
+        run: npm install
+
+      - name: Clean public
+        run: rm -rf ./public/*
 
       - name: Build
-        run: mkdir ./public && cp CNAME ./public && hugo --minify
-        
+        run: hugo -s . --themesDir=./themes/ --minify --environment production -b https://edfloreshz.dev
+
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
+          publish_branch: gh-pages
