@@ -9,6 +9,8 @@ zooming_js: false
 keywords:
 ---
 
-{{< icon name="mail" link="mailto://edfloreshz@proton.me" >}}
+{{< icon-group >}}
 {{< icon name="github" link="https://github.com/edfloreshz" >}}
-
+{{< icon name="rss" link="https://edfloreshz.dev/index.xml" >}}
+{{< icon name="mail" link="mailto://edfloreshz@proton.me" >}}
+{{< /icon-group >}}
