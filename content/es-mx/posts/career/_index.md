@@ -1,8 +1,7 @@
 ---
 title: Carrera
 type: postcard
-bookcase_cover_src: 'images/articles/career/career.png'
-bookcase_cover_src_dark: 'images/articles/career/career.png'
+cover: '/images/articles/career/career.png'
 weight: 20
 ---
 

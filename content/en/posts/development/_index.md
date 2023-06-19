@@ -1,8 +1,7 @@
 ---
 title: Development
 type: 'bookcase'
-bookcase_cover_src: 'images/articles/development/development.png'
-bookcase_cover_src_dark: 'images/articles/development/development.png'
+cover: '/images/articles/development/development.png'
 weight: 20
 ---
 

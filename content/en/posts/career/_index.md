@@ -1,8 +1,7 @@
 ---
 title: Career
-type: postcard
-bookcase_cover_src: 'images/articles/career/career.png'
-bookcase_cover_src_dark: 'images/articles/career/career.png'
+type: bookcase
+cover: '/images/articles/career/career.png'
 weight: 20
 ---
 

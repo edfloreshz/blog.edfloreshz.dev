@@ -1,8 +1,7 @@
 ---
 title: 'Rust'
-type: postcard
-bookcase_cover_src: 'images/articles/rust/rust.png'
-bookcase_cover_src_dark: 'images/articles/rust/rust.png'
+type: bookcase
+cover: '/images/articles/rust/rust.png'
 weight: 20
 ---
 

@@ -618,46 +618,42 @@ article {
     margin-left: auto;
     margin-right: auto; }
 
-.bookcase-layout {
-  display: grid;
-  gap: 1rem;
-  grid-template-columns: repeat(auto-fill, auto-fill); }
-  .bookcase-layout .bookcase-item {
-    background-color: #474747;
-    border-radius: 0.375rem;
-    padding: 1.5rem; }
-    .bookcase-layout .bookcase-item figure {
-      position: relative; }
-    .bookcase-layout .bookcase-item figcaption {
-      font-size: 1.25rem;
-      /* 20px */
-      line-height: 1.75rem;
-      /* 28px */
-      text-align: center;
-      margin-top: .7rem; }
-      .bookcase-layout .bookcase-item figcaption a {
-        color: var(--color-text); }
-    .bookcase-layout .bookcase-item img,
-    .bookcase-layout .bookcase-item .bookcase-item-overlay {
-      width: auto;
-      height: auto;
-      border-radius: 0.375rem;
-      box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
-      object-fit: cover; }
-    .bookcase-layout .bookcase-item .bookcase-item-overlay {
-      position: absolute;
-      top: 0;
-      left: 0;
-      background-color: transparent;
-      opacity: 0.25; }
-      .bookcase-layout .bookcase-item .bookcase-item-overlay:hover {
-        background-color: var(--color-background-overlay); }
+.bookcase-layout a {
+  color: var(--color-text); }
 
-html[data-theme="light"] .bookcase-item-img-dark {
-  display: none; }
-
-html[data-theme="dark"] .bookcase-item-img-light {
-  display: none; }
+.bookcase-layout .bookcase-item {
+  padding: 1rem;
+  background-color: var(--color-background-card);
+  border-radius: .375rem;
+  margin: 2rem 0;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06); }
+  .bookcase-layout .bookcase-item:hover {
+    background-color: var(--color-background-hover); }
+  .bookcase-layout .bookcase-item .bookcase-item-cover {
+    border-radius: .375rem;
+    margin-bottom: 1rem; }
+  .bookcase-layout .bookcase-item .bookcase-title {
+    font-size: 1.25rem;
+    /* 20px */
+    line-height: 1.75rem;
+    /* 28px */
+    font-weight: 500; }
+  .bookcase-layout .bookcase-item .bookcase-summary {
+    font-size: 0.75rem;
+    /* 12px */
+    line-height: 1rem;
+    /* 16px */
+    color: var(--color-text-secondary);
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    margin: .5rem 0; }
+  .bookcase-layout .bookcase-item .bookcase-metadata {
+    font-size: 0.75rem;
+    /* 12px */
+    line-height: 1rem;
+    /* 16px */
+    color: var(--color-text-secondary); }
 
 @media screen and (min-width: 48rem) {
   .gallery-layout figure {
