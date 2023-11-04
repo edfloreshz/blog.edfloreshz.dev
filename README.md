@@ -1,3 +1,3 @@
-# My Blog
+# Personal website
 
-This is where my blog lives.
+This is where my personal website and blog lives.
