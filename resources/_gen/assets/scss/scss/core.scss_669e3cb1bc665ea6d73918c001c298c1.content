@@ -341,11 +341,11 @@ html[data-theme="dark"] {
   --color-text-footer: #a3a3a3;
   --color-border: #737373;
   --color-border-collapsible-menu: #636363;
-  --color-background: #333333;
+  --color-background: #171717;
   --color-background-hover: #525252;
   --color-background-overlay: #404040;
   --color-background-inline-code: #525252;
-  --color-background-card: #404040;
+  --color-background-card: #262626;
   --color-background-mark: #fff1a7;
   --color-link: #93c5fd;
   --color-navbar-item-inactive: #a3a3a3;
