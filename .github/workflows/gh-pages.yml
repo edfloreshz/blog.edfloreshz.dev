@@ -37,8 +37,8 @@ jobs:
       - name: Build
         run: hugo -s . --themesDir=./themes/ --minify --environment production -b https://edfloreshz.dev
 
-      - name: Well Known
-        run: cp -r .well-known public
+      - name: Artifacts
+        run: cp -r .well-known CNAME public
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
