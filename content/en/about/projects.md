@@ -5,7 +5,7 @@ weight: 2
 
 * ✅ [Tasks](https://tasks.edfloreshz.dev/)
   * A simple task management application for the COSMIC desktop.
-* ✅ [Calculator](https://github.com/cosmic-utils/calculator)
+* 🧮 [Calculator](https://github.com/cosmic-utils/calculator)
   * A simple calculator application for the COSMIC desktop. 
 * 🏯 [Sensei](https://sensei.edfloreshz.dev/)
   * A simple command line tool to open and query documentation for any crate in crates.io.
