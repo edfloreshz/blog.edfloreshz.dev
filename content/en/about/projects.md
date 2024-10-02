@@ -5,6 +5,8 @@ weight: 2
 
 * ✅ [Tasks](https://tasks.edfloreshz.dev/)
   * A simple task management application for the COSMIC desktop.
+* 🎨 [Tweaks](https://github.com/cosmic-utils/tweaks)
+  * A tweaking tool for the COSMIC desktop.
 * 🧮 [Calculator](https://github.com/cosmic-utils/calculator)
   * A simple calculator application for the COSMIC desktop. 
 * 🏯 [Sensei](https://sensei.edfloreshz.dev/)
