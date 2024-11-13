@@ -4,9 +4,8 @@ tags: ["rust", "linux", "pop_os", "system76"]
 cover: /images/articles/linux/system76/contribute_to_pop_os/cover.png
 author: "Eduardo Flores"
 date: 2022-01-14
+description: "This article intends to compile everything you need to know to start contributing to Pop!_OS."
 ---
-
-This article intends to compile everything you need to know to start contributing to Pop!_OS.
 
 If you’re reading this, you probably love what System76 has done with Pop!_OS and want to help make it better, in this article we’ll cover the basics of what you need to know to start contributing to Pop!_OS.
 

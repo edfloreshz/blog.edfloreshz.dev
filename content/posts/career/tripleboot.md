@@ -4,6 +4,7 @@ tags: ["tools", "development"]
 author: "Eduardo Flores"
 cover: /images/articles/career/tripleboot/header.png
 date: 2020-09-16
+description: "In this article, we'll talk about how to triple-boot Windows, macOS, and Linux in a single machine."
 ---
 
 As developers, we sometimes require to test our software on different platforms, this can be hard to do especially if you don't own a Mac, fortunately, there is a way to do exactly that.

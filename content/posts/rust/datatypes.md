@@ -4,6 +4,7 @@ tags: ["rust", "basics"]
 author: "Eduardo Flores"
 cover: /images/articles/rust/datatypes/header.png
 date: 2020-09-25
+description: "In this article, we'll be discussing the various data types in Rust."
 ---
 
 In this article, we'll be discussing the various data types in Rust.

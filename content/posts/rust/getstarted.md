@@ -4,6 +4,7 @@ tags: [rust, basics]
 author: Eduardo Flores
 cover: /images/articles/rust/getstarted/header.png
 date: 2020-09-16
+description: In this article, we'll be discussing how to get started with Rust, how to install it, and how to run your first program.
 ---
 
 This is the first in a series of articles to help developers understand **Rust** better, I will be covering most of what you can find in [The Rust Book](https://doc.rust-lang.org/book/), in a more synthesized and concise way. I will start with the basics and build my way up to more complex topics.

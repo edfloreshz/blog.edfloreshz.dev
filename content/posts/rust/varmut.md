@@ -4,6 +4,7 @@ tags: [rust, basics]
 author: Eduardo Flores
 cover: /images/articles/rust/varmut/header.png
 date: 2020-09-18
+description: "In this article, we'll be discussing variables and mutability in Rust."
 ---
 
 In the last article, we talked about how to use Cargo for Rust projects and highlighted some of its most common commands. We are now going to go further and start talking about variables and mutability.

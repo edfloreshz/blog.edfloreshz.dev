@@ -4,9 +4,8 @@ tags: ["rust", "linux", "pop_os", "system76"]
 author: "Eduardo Flores"
 cover: /images/articles/linux/system76/rust-based-de/rust-based-de.png
 date: 2022-01-11
+description: "System76 is developing a new desktop environment based on the Rust programming language called COSMIC, let's explore how this new desktop environment is shaping up."
 ---
-
-This article intends to shine a light at the development of a new desktop environment for the Pop!_OS operating system.
 
 A few months ago, System76 announced that they would be developing a new desktop environment based on the Rust programming language called **COSMIC**.
 

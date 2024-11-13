@@ -4,6 +4,7 @@ tags: ["rust", "basics"]
 author: "Eduardo Flores"
 cover: /images/articles/rust/controlflow/header.png
 date: 2020-10-20
+description: "In this article, we'll be discussing what control flow is and how we can use it in Rust."
 ---
 
 In this article, we'll be discussing what control flow is and how we can use it in Rust.

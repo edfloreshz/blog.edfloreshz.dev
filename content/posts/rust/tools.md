@@ -4,6 +4,7 @@ tags: ["rust", "basics", "tools"]
 author: "Eduardo Flores"
 cover: /images/articles/rust/tools/header.png
 date: 2020-08-24
+description: "In this article, we'll talk about the best development tools and resources for Rust developers, from code editors to IDEs, and even some useful libraries."
 ---
 
 As new Rust developers, we constantly encounter new challenges, especially coming from languages like JavaScript or Python. Rust isn't as familiar as other languages, but being a modern language it brings many benefits to the table that other older languages don't.

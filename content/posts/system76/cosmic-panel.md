@@ -4,9 +4,8 @@ tags: ["rust", "linux", "pop_os", "system76"]
 author: "Eduardo Flores"
 cover: /images/articles/linux/system76/cosmic_panel/cosmic_panel.png
 date: 2022-01-19
+description: "System76 has finally released the first official pictures of what the new COSMIC desktop will look like, specifically the COSMIC Panel."
 ---
-
-This article shows how the new COSMIC Panel will look like.
 
 After a few months of development, System76 has finally released the first official pictures of what the new COSMIC desktop will look like, specifically the COSMIC Panel.
 

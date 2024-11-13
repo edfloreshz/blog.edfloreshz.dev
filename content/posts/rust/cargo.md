@@ -4,7 +4,7 @@ tags: ["cargo", "rust", "tools"]
 author: "Eduardo Flores"
 cover: /images/articles/rust/cargo/header.png
 date: 2020-09-17
-description:
+description: "In this article, we'll talk about Cargo, Rust's package manager, and how can we use it to make our projects easier to manage."
 ---
 
 In the last article, we talked about the basics to get started with Rust, we even wrote our first, very simple program. We are now going to discuss how can we use Cargo, one of the tools we talked about that comes with Rust.

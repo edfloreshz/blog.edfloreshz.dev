@@ -4,6 +4,7 @@ tags: ["rust", "basics"]
 author: "Eduardo Flores"
 cover: /images/articles/rust/functions/header.png
 date: 2020-10-12
+description: "In this article, we'll be discussing what functions are and when to use them in Rust."
 ---
 
 In this article, we'll be discussing what functions are and when to use them in Rust.

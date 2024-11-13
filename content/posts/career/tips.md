@@ -1,9 +1,10 @@
 ---
-title: "Tips to deal with side projects TEST"
+title: "Tips to deal with side projects"
 tags: ["tips", "tricks"]
 author: "Eduardo Flores"
 cover: /images/articles/career/tips/header.png
 date: 2020-08-30
+description: "Here are some tips to help you stick with your side projects until they're done!"
 ---
 
 
