@@ -1,5 +1,0 @@
-[[navbar]]
-identifier = "posts"
-name = "Publicaciones"
-url = "/es-mx/posts/"
-weight = 1
