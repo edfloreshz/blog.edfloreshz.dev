@@ -1,6 +1,6 @@
 ---
 title: 'About me'
-weight: 1
+cover: /images/cover/me-real.jpg
 ---
 
 I'm an enthusiastic software engineer passionate about programming, keyboards and computers.

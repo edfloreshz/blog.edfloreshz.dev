@@ -85,3 +85,7 @@ url = "/about"
 identifier = "projects"
 name = "Projects"
 url = "/projects"
+
+[services]
+[services.disqus]
+shortname = 'edfloreshz'
