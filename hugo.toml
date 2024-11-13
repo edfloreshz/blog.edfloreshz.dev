@@ -1,6 +1,7 @@
 baseURL = "https://edfloreshz.dev"
 languageCode = 'en-us'
 title = 'edfloreshz'
+theme = "terminal"
 paginate = 5
 
 [params]
