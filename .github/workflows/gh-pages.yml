@@ -56,6 +56,8 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./public
+      - name: Artifacts
+        run: cp -r .well-known CNAME public
 
   # Deployment job
   deploy:
