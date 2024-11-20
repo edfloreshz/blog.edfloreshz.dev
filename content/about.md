@@ -15,7 +15,7 @@ Some of my main interests are:
 
 ### Work
 * [GitHub](https://github.com/edfloreshz)
-* [Resume](https://rxresu.me/flores/resume)
+* [Resume](https://rxresu.me/edfloreshz/edfloreshz)
 * [Email](mailto://edfloreshz@proton.me)
 
 ### Socials
