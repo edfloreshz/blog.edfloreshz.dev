@@ -1,88 +1,83 @@
-baseURL = "https://blog.edfloreshz.dev"
+baseURL = "https://edfloreshz.dev"
 languageCode = 'en-us'
-title = 'edfloreshz'
-theme = "terminal"
-paginate = 5
+title = 'Eduardo Flores'
+theme = "typo"
+
+[taxonomies]
+tag = 'tags'
 
 [params]
-# dir name of your main content (default is `content/posts`).
-# the list of set content will show up on your index page (baseurl).
-contentTypeName = "posts"
+homeIntroTitle = ''
+homeIntroContent = 'Software Engineer in México'
 
-# if you set this to 0, only submenu trigger will be visible
-showMenuItems = 4
+faviconPath = 'favicon'
+theme = 'auto'
+colorPalette = 'default'
+hideHeader = false
 
-# show selector to switch language
-showLanguageSelector = false
+showFooter = true
+footerContent = "© 2025 Eduardo Flores"
 
-# set theme to full screen width
-fullWidthTheme = false
+# Collection to display on home
+homeCollectionTitle = ''
+homeCollection = 'posts'
 
-# center theme with default width
-centerTheme = true
+# Lists parameters
+paginationSize = 1000
+listSummaries = true
+listDateFormat = '2 Jan 2006'
 
-# if your resource directory contains an image called `cover.(jpg|png|webp)`,
-# then the file will be used as a cover automatically.
-# With this option you don't have to put the `cover` param in a front-matter.
-autoCover = true
+# Breadcrumbs
+breadcrumbs = false
 
-# set post to show the last updated
-# If you use git, you can set `enableGitInfo` to `true` and then post will automatically get the last updated
-showLastUpdated = false
+[[params.menu]]
+name = "home"
+url = "/"
 
-# Provide a string as a prefix for the last update date. By default, it looks like this: 2020-xx-xx [Updated: 2020-xx-xx] :: Author
-# updatedDatePrefix = "Updated"
+[[params.menu]]
+name = "posts"
+url = "/posts"
 
-# whether to show a page's estimated reading time
-readingTime = true # default
+[[params.menu]]
+name = "brand"
+url = "https://brand.edfloreshz.dev"
 
-# whether to show a table of contents
-# can be overridden in a page's front-matter
-# Toc = false # default
+[[params.menu]]
+name = "ai"
+url = "/ai"
 
-# set title for the table of contents
-# can be overridden in a page's front-matter
-# TocTitle = "Table of Contents" # default
+# Social icons
+[[params.social]]
+name = "linkedin"
+url = "https://www.linkedin.com/in/edfloreshz/"
 
+[[params.social]]
+name = "mastodon"
+url = "https://hachyderm.io/@edfloreshz"
 
-[params.twitter]
-# set Twitter handles for Twitter cards
-# see https://developer.twitter.com/en/docs/tweets/optimize-with-cards/guides/getting-started#card-and-content-attribution
-# do not include @
-creator = ""
-site = ""
+[[params.social]]
+name = "github"
+url = "https://github.com/edfloreshz"
 
-[languages]
-[languages.en]
-languageName = "English"
-title = "edfloreshz"
+[[params.social]]
+name = "twitch"
+url = "https://www.twitch.tv/edfloreshz/about"
 
-[languages.en.params]
-subtitle = "A simple, retro theme for Hugo"
-owner = ""
-keywords = ""
-copyright = ""
-menuMore = "Show more"
-readMore = "Read more"
-readOtherPosts = "Read other posts"
-newerPosts = "Newer posts"
-olderPosts = "Older posts"
-missingContentMessage = "Page not found..."
-missingBackButtonLabel = "Back to home page"
-minuteReadingTime = "min read"
-words = "words"
+[[params.social]]
+name = "matrix"
+url = "https://matrix.to/#/@edfloreshz:matrix.org"
 
-[languages.en.params.logo]
-logoText = "edfloreshz"
-logoHomeLink = "/"
+# Syntax highlight on code blocks
+[markup]
+[markup.highlight]
+style = 'algol'
 
-[languages.en.menu]
-[[languages.en.menu.main]]
-identifier = "about"
-name = "About"
-url = "/about"
-
-[[languages.en.menu.main]]
-identifier = "projects"
-name = "Projects"
-url = "/projects"
+# Giscus comments
+[params.giscus]
+enable = false
+repo = "edfloreshz/edfloreshz.dev"
+repoid = "340447979"
+category = "Announcements"
+categoryid = "33718616"
+mapping = "pathname"
+theme = "preferred_color_scheme"
