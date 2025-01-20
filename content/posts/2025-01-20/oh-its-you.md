@@ -4,6 +4,7 @@ date: "2025-01-20"
 summary: "It’s been a long time..."
 description: "Let's try this writing thing again..."
 tags: ["personal"]
+fediverse: "@edfloreshz@hachyderm.io"
 ---
 
 How have you been?
