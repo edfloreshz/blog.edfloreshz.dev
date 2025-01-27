@@ -1,5 +1,5 @@
 baseURL = "https://edfloreshz.dev"
-languageCode = 'en-us'
+languageCode = 'es-MX'
 title = 'Eduardo Flores'
 theme = "typo"
 
@@ -8,7 +8,7 @@ tag = 'tags'
 
 [params]
 homeIntroTitle = ''
-homeIntroContent = 'Software Engineer in México'
+homeIntroContent = 'Ingeniero de Software en México'
 
 faviconPath = 'favicon'
 theme = 'auto'
@@ -20,7 +20,7 @@ footerContent = "© 2025 Eduardo Flores"
 
 # Collection to display on home
 homeCollectionTitle = ''
-homeCollection = 'posts'
+homeCollection = 'entradas'
 
 # Lists parameters
 paginationSize = 1000
@@ -31,15 +31,15 @@ listDateFormat = '2 Jan 2006'
 breadcrumbs = false
 
 [[params.menu]]
-name = "home"
+name = "inicio"
 url = "/"
 
 [[params.menu]]
-name = "posts"
-url = "/posts"
+name = "entradas"
+url = "/entradas"
 
 [[params.menu]]
-name = "brand"
+name = "marca"
 url = "https://brand.edfloreshz.dev"
 
 [[params.menu]]
